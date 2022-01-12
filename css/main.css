@@ -12,9 +12,11 @@ main #notice_free_youtube {
     margin:10px 0 0 0;
 }
 
+/* 공지사항 */
 main #notice {
     border:solid 1px red;
     width:370px;
+    position:absolute;
 }
 
 main .latest_title {
@@ -50,6 +52,15 @@ main .latest_content .list .subject {
 
 main .latest_content li {
     padding:10px 0 10px 0;
+}
+
+/* 자유게시판 */
+main #free {
+    width:370px;
+    border:solid 1px red;
+    position:absolute;
+    top:120px;
+
 }
 
 
