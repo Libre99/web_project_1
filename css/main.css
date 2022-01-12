@@ -60,10 +60,33 @@ main #free {
     border:solid 1px red;
     position:absolute;
     top:120px;
-
 }
 
+/* YOUTUBE 동영상 */
+main #youtube {
+    width:370px;
+    position:absolute;
+    left:380px;
+    border:solid 1px blue;
+}
 
+main #youtube_img {
+    margin:10px 0 0 50px;
+}
 
+/* 포토 갤러리 */
+main #gallery_box {
+    width:750px;
+    border:solid 1px #cccccc;
+    border-radius:10px;
+    margin:10px 0 0 10px;
+    box-shadow:2px 2px 5px #dddddd;
+}
+
+#gallery .items {
+    text-align:center;
+    margin:0 0 0 40px;
+    float:left;
+}
 
 
