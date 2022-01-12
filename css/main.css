@@ -6,7 +6,7 @@ main {
 }
 
 main #notice_free_youtube {
-    border:solid 1px red;
+
     height:250px;
     position:relative;
     margin:10px 0 0 0;
@@ -14,7 +14,7 @@ main #notice_free_youtube {
 
 /* 공지사항 */
 main #notice {
-    border:solid 1px red;
+
     width:370px;
     position:absolute;
 }
@@ -57,7 +57,7 @@ main .latest_content li {
 /* 자유게시판 */
 main #free {
     width:370px;
-    border:solid 1px red;
+
     position:absolute;
     top:120px;
 }
@@ -67,7 +67,7 @@ main #youtube {
     width:370px;
     position:absolute;
     left:380px;
-    border:solid 1px blue;
+
 }
 
 main #youtube_img {
@@ -76,11 +76,16 @@ main #youtube_img {
 
 /* 포토 갤러리 */
 main #gallery_box {
-    width:750px;
+    width:740px;
+    height:205px;
     border:solid 1px #cccccc;
     border-radius:10px;
     margin:10px 0 0 10px;
     box-shadow:2px 2px 5px #dddddd;
+}
+
+main #gallery_list {
+    padding:25px 0 0 15px;
 }
 
 #gallery .items {
