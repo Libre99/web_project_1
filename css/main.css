@@ -2,6 +2,7 @@
 
 main {
     width:770px;
+    float:right;
 }
 
 main #notice_free_youtube {
@@ -30,7 +31,7 @@ main .latest_title .more {
     float:right;
 }
 
-main .latest_content .book_img {
+main .latest_content .book_image {
     float:left;
     margin:10px 0 0 20px;
 }
