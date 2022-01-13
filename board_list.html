@@ -20,7 +20,7 @@
             </nav>
             <nav id="main_menu">
                 <ul>
-                    <li><a href="#">자유 게시판</a></li>
+                    <li><a href="board_list.html">자유 게시판</a></li>
                     <li><a href="#">기타 연주</a></li>
                     <li><a href="#">공동 구매</a></li>
                     <li><a href="#">연주회 안내</a></li>
@@ -61,7 +61,7 @@
 
             <nav id="sub_menu"> <!-- 서브 메뉴 시작 -->
                 <ul>
-                    <li>+ 자유게시판</li>
+                    <li>+ <a href="board_list.html">자유게시판</a></li>
                     <li>+ 방명록</li>
                     <li>+ 공지사항</li>
                     <li>+ 등업 요청</li>
@@ -96,7 +96,45 @@
                     <div id="search_button"><img src="img/search_button.gif"></div>
                 </div>
             </div> <!-- 게시물 검색줄 끝 -->
+            <table> <!-- 게시물 목록 테이블 시작 -->
+                <tr>
+                    <th>번호</th>
+                    <th>제목</th>
+                    <th>글쓴이</th>
+                    <th>일시</th>
+                    <th>조회수</th>
+                </tr>
+                <tr>
+                    <td class="col1">1</td>
+                    <td class="col2"><a href="board_view.html">까스통님의 선물인 보드카가 정말 독하네요!!!</a></td>
+                    <td class="col3">루바토</td>
+                    <td class="col4">2022-01-13</td>
+                    <td class="col5">15</td>
+                </tr>
+                <tr>
+                    <td class="col1">2</td>
+                    <td class="col2"><a href="board_view.html">까스통님의 선물인 보드카가 정말 독하네요!!!</a></td>
+                    <td class="col3">루바토</td>
+                    <td class="col4">2022-01-13</td>
+                    <td class="col5">15</td>
+                </tr>
+                <tr>
+                    <td class="col1">3</td>
+                    <td class="col2"><a href="board_view.html">까스통님의 선물인 보드카가 정말 독하네요!!!</a></td>
+                    <td class="col3">루바토</td>
+                    <td class="col4">2022-01-13</td>
+                    <td class="col5">15</td>
+                </tr>
+            </table> <!-- 게시물 목록 테이블 끝 -->
+            <div id="move_page"> <!-- 게시판 페이지 이동 버튼 시작 -->
+                <div class="prev_next">◀ 이전 페이지 | 다음 페이지 ▶</div>
+                <div class="list_write">
+                    <a href="board_list.html"><img src="img/list.png"></a>
+                    <a href="board_write.html"><img src="img/write.png"></a>
+                </div>
+            </div> <!-- 게시판 페이지 이동 버튼 끝 -->
         </main> <!-- main -->
+
         <div class="clear"></div>
 
         <footer> <!-- footer 시작 -->
