@@ -1,0 +1,46 @@
+/** 게시판 목록 board_list.CSS **/
+
+main #board_title {
+    margin-top:20px;
+    border-bottom:solid 1px #bbbbbb;
+    padding:0 0 5px 0;
+}
+
+main #total_search {
+    position:relative;
+    height:40px;
+
+}
+
+main #total {
+    position:absolute;
+    top:10px;
+}
+
+main #search {
+    position:absolute;
+    left:400px;
+}
+
+main #search #search_img {
+    position:absolute;
+    top:10px;
+}
+
+main #search #search_select {
+    position:absolute;
+    top:10px;
+    left:62px;
+}
+
+main #search #search_input {
+    position:absolute;
+    top:9px;
+    left:131px;
+}
+
+main #search #search_button {
+    position:absolute;
+    top:8px;
+    left:300px;
+}
